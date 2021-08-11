@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AA" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory.management.system.MainScreenController">
+   <children>
+      <AnchorPane fx:id="anc" layoutX="-2.0" layoutY="31.0" prefHeight="439.0" prefWidth="646.0">
+         <children>
+            <Line endX="487.0" layoutX="153.0" layoutY="89.0" startX="-145.0" stroke="#938b84" />
+            <Label fx:id="time" layoutX="510.0" layoutY="20.0" prefHeight="51.0" prefWidth="116.0" text="Label">
+               <font>
+                  <Font name="Garamond Bold" size="42.0" />
+               </font></Label>
+            <Label layoutX="27.0" layoutY="46.0" prefHeight="33.0" prefWidth="225.0" text="WELCOME !">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="182.0" layoutY="184.0" prefHeight="106.0" prefWidth="283.0" text="Navigate through the Navigation Drawer in the left" />
+            <Polyline fill="CHARTREUSE" layoutX="282.0" layoutY="288.0" points="-30.0, -21.0, -15.0, -30.0, -15.0, -13.0, -30.0, -21.0" strokeType="INSIDE" />
+            <Line endX="-54.0" layoutX="368.0" layoutY="267.0" startX="-100.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="-2.0" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="33.0" prefWidth="648" style="-fx-background-color: #00688B;">
+         <children>
+            <JFXHamburger fx:id="hamburg" layoutX="14.0" layoutY="13.0" prefHeight="12.0" prefWidth="18.0" />
+         </children>
+      </AnchorPane>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="150.0" layoutX="-2.0" layoutY="31.0" prefHeight="439.0" prefWidth="133.0" />
+   </children>
+</AnchorPane>

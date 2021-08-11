@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="181.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventory.management.system.NavDrawerController">
+   <children>
+      <ImageView fitHeight="138.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/25201.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="inv" accessibleText="M1" layoutY="166.0" prefHeight="27.0" prefWidth="181.0" text="  Inventory" />
+      <JFXButton fx:id="stk" accessibleText="M2" layoutY="193.0" prefHeight="27.0" prefWidth="181.0" text="  Stock" />
+      <JFXButton fx:id="sale" accessibleText="M3" layoutY="220.0" prefHeight="27.0" prefWidth="181.0" text="  Sales" />
+      <JFXButton fx:id="insert" accessibleText="add" layoutY="139.0" prefHeight="27.0" prefWidth="181.0" text="  Add" />
+      <Line endX="89.0" layoutX="72.0" layoutY="293.0" startX="-51.5" stroke="SILVER" />
+      <JFXButton fx:id="log" accessibleText="log" layoutY="300.0" prefHeight="27.0" prefWidth="181.0" text="  Log Out" />
+      <JFXButton fx:id="sign" accessibleText="sign" layoutY="247.0" prefHeight="27.0" prefWidth="181.0" text="  Sign Up" />
+   </children>
+</AnchorPane>
